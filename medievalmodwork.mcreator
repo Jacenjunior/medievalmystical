@@ -1,0 +1,837 @@
+{
+  "mod_elements": [
+    {
+      "name": "MedievalAdds",
+      "type": "tab",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "medieval_adds",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Phase 1/General Utilities"
+    },
+    {
+      "name": "CooperSword",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooper_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/medievalmodwork/models/item/cooper_sword.json",
+          "src/main/java/net/mcreator/medievalmodwork/item/CooperSwordItem.java"
+        ]
+      },
+      "path": "~/Phase 1/Copper Set"
+    },
+    {
+      "name": "CopperPickaxe",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/medievalmodwork/item/CopperPickaxeItem.java",
+          "src/main/resources/assets/medievalmodwork/models/item/copper_pickaxe.json"
+        ]
+      },
+      "path": "~/Phase 1/Copper Set"
+    },
+    {
+      "name": "CopperAxe",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/medievalmodwork/models/item/copper_axe.json",
+          "src/main/java/net/mcreator/medievalmodwork/item/CopperAxeItem.java"
+        ]
+      },
+      "path": "~/Phase 1/Copper Set"
+    },
+    {
+      "name": "CopperHoe",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/medievalmodwork/models/item/copper_hoe.json",
+          "src/main/java/net/mcreator/medievalmodwork/item/CopperHoeItem.java"
+        ]
+      },
+      "path": "~/Phase 1/Copper Set"
+    },
+    {
+      "name": "CopperShovel",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/medievalmodwork/models/item/copper_shovel.json",
+          "src/main/java/net/mcreator/medievalmodwork/item/CopperShovelItem.java"
+        ]
+      },
+      "path": "~/Phase 1/Copper Set"
+    },
+    {
+      "name": "BronzeIngot",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/medievalmodwork/item/BronzeIngotItem.java",
+          "src/main/resources/assets/medievalmodwork/models/item/bronze_ingot.json"
+        ]
+      },
+      "path": "~/Phase 1/Bronze Set"
+    },
+    {
+      "name": "BronzeBlock",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/medievalmodwork/blockstates/bronze_block.json",
+          "src/main/java/net/mcreator/medievalmodwork/block/BronzeBlockBlock.java",
+          "src/main/resources/assets/medievalmodwork/models/block/bronze_block.json",
+          "src/main/resources/assets/medievalmodwork/models/item/bronze_block.json"
+        ]
+      },
+      "path": "~/Phase 1/Bronze Set"
+    },
+    {
+      "name": "BronzeOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/medievalmodwork/recipes/bronze_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Phase 1/Bronze Set"
+    },
+    {
+      "name": "BronzeBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/medievalmodwork/recipes/bronze_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Phase 1/Bronze Set"
+    },
+    {
+      "name": "BronzeArmor",
+      "type": "armor",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/medievalmodwork/models/item/bronze_armor_helmet.json",
+          "src/main/resources/assets/medievalmodwork/models/item/bronze_armor_chestplate.json",
+          "src/main/java/net/mcreator/medievalmodwork/item/BronzeArmorItem.java",
+          "src/main/resources/assets/medievalmodwork/models/item/bronze_armor_boots.json",
+          "src/main/resources/assets/medievalmodwork/models/item/bronze_armor_leggings.json"
+        ]
+      },
+      "path": "~/Phase 1/Bronze Set"
+    },
+    {
+      "name": "BronzeArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/medievalmodwork/recipes/bronze_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Phase 1/Bronze Set"
+    },
+    {
+      "name": "BronzeArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/medievalmodwork/recipes/bronze_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Phase 1/Bronze Set"
+    },
+    {
+      "name": "BronzeArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/medievalmodwork/recipes/bronze_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Phase 1/Bronze Set"
+    },
+    {
+      "name": "BronzeArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/medievalmodwork/recipes/bronze_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Phase 1/Bronze Set"
+    },
+    {
+      "name": "TinIngot",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/medievalmodwork/item/TinIngotItem.java",
+          "src/main/resources/assets/medievalmodwork/models/item/tin_ingot.json"
+        ]
+      },
+      "path": "~/Phase 1/Tin Set"
+    },
+    {
+      "name": "TinOre",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/medievalmodwork/forge/biome_modifier/tin_ore_biome_modifier.json",
+          "src/main/java/net/mcreator/medievalmodwork/block/TinOreBlock.java",
+          "src/main/resources/assets/medievalmodwork/models/block/tin_ore.json",
+          "src/main/resources/assets/medievalmodwork/models/item/tin_ore.json",
+          "src/main/resources/data/medievalmodwork/worldgen/configured_feature/tin_ore.json",
+          "src/main/resources/data/medievalmodwork/worldgen/placed_feature/tin_ore.json",
+          "src/main/resources/assets/medievalmodwork/blockstates/tin_ore.json"
+        ]
+      },
+      "path": "~/Phase 1/Tin Set"
+    },
+    {
+      "name": "TinBlock",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/medievalmodwork/block/TinBlockBlock.java",
+          "src/main/resources/assets/medievalmodwork/blockstates/tin_block.json",
+          "src/main/resources/assets/medievalmodwork/models/item/tin_block.json",
+          "src/main/resources/assets/medievalmodwork/models/block/tin_block.json"
+        ]
+      },
+      "path": "~/Phase 1/Tin Set"
+    },
+    {
+      "name": "TinOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/medievalmodwork/recipes/tin_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Phase 1/Tin Set"
+    },
+    {
+      "name": "TinBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/medievalmodwork/recipes/tin_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Phase 1/Tin Set"
+    },
+    {
+      "name": "TinOreSmelting",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/medievalmodwork/recipes/tin_ore_smelting.json"
+        ]
+      },
+      "path": "~/Phase 1/Tin Set"
+    },
+    {
+      "name": "TinOreBlasting",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_ore_blasting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/medievalmodwork/recipes/tin_ore_blasting.json"
+        ]
+      },
+      "path": "~/Phase 1/Tin Set"
+    },
+    {
+      "name": "BronzeIngotRecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/medievalmodwork/recipes/bronze_ingot_recipe.json"
+        ]
+      },
+      "path": "~/Phase 1/Bronze Set"
+    },
+    {
+      "name": "Steel",
+      "type": "item",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/medievalmodwork/models/item/steel.json",
+          "src/main/java/net/mcreator/medievalmodwork/item/SteelItem.java"
+        ]
+      },
+      "path": "~/Phase 1/Bronze Set"
+    },
+    {
+      "name": "SteelOre",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/medievalmodwork/models/item/steel_ore.json",
+          "src/main/resources/data/medievalmodwork/worldgen/configured_feature/steel_ore.json",
+          "src/main/resources/data/medievalmodwork/worldgen/placed_feature/steel_ore.json",
+          "src/main/resources/assets/medievalmodwork/blockstates/steel_ore.json",
+          "src/main/resources/data/medievalmodwork/forge/biome_modifier/steel_ore_biome_modifier.json",
+          "src/main/java/net/mcreator/medievalmodwork/block/SteelOreBlock.java",
+          "src/main/resources/assets/medievalmodwork/models/block/steel_ore.json"
+        ]
+      },
+      "path": "~/Phase 1/Bronze Set"
+    },
+    {
+      "name": "SteelBlock",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/medievalmodwork/block/SteelBlockBlock.java",
+          "src/main/resources/assets/medievalmodwork/blockstates/steel_block.json",
+          "src/main/resources/assets/medievalmodwork/models/item/steel_block.json",
+          "src/main/resources/assets/medievalmodwork/models/block/steel_block.json"
+        ]
+      },
+      "path": "~/Phase 1/Steel Set"
+    },
+    {
+      "name": "SteelOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/medievalmodwork/recipes/steel_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Phase 1/Steel Set"
+    },
+    {
+      "name": "SteelBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/medievalmodwork/recipes/steel_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Phase 1/Steel Set"
+    },
+    {
+      "name": "SteelOreSmelting",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/medievalmodwork/recipes/steel_ore_smelting.json"
+        ]
+      },
+      "path": "~/Phase 1/Steel Set"
+    },
+    {
+      "name": "SteelOreBlasting",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ore_blasting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/medievalmodwork/recipes/steel_ore_blasting.json"
+        ]
+      },
+      "path": "~/Phase 1/Steel Set"
+    },
+    {
+      "name": "LargeSteel",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "large_steel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/medievalmodwork/item/LargeSteelItem.java",
+          "src/main/resources/assets/medievalmodwork/models/item/large_steel.json"
+        ]
+      },
+      "path": "~/Phase 1/Steel Set"
+    },
+    {
+      "name": "LargeSteelBlock",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "large_steel_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/medievalmodwork/block/LargeSteelBlockBlock.java",
+          "src/main/resources/assets/medievalmodwork/blockstates/large_steel_block.json",
+          "src/main/resources/assets/medievalmodwork/models/block/large_steel_block.json",
+          "src/main/resources/assets/medievalmodwork/models/item/large_steel_block.json"
+        ]
+      },
+      "path": "~/Phase 1/Steel Set"
+    },
+    {
+      "name": "LargeSteelRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "large_steel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/medievalmodwork/recipes/large_steel_recipe.json"
+        ]
+      },
+      "path": "~/Phase 1/Steel Set"
+    },
+    {
+      "name": "HardSteelArmor",
+      "type": "armor",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hard_steel_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/medievalmodwork/models/item/hard_steel_armor_boots.json",
+          "src/main/resources/assets/medievalmodwork/models/item/hard_steel_armor_leggings.json",
+          "src/main/resources/assets/medievalmodwork/models/item/hard_steel_armor_chestplate.json",
+          "src/main/resources/assets/medievalmodwork/models/item/hard_steel_armor_helmet.json",
+          "src/main/java/net/mcreator/medievalmodwork/item/HardSteelArmorItem.java"
+        ]
+      },
+      "path": "~/Phase 1/Steel Set"
+    },
+    {
+      "name": "HardSteelArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hard_steel_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/medievalmodwork/recipes/hard_steel_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Phase 1/Steel Set"
+    },
+    {
+      "name": "HardSteelArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hard_steel_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/medievalmodwork/recipes/hard_steel_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Phase 1/Steel Set"
+    },
+    {
+      "name": "HardSteelArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hard_steel_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/medievalmodwork/recipes/hard_steel_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Phase 1/Steel Set"
+    },
+    {
+      "name": "HardSteelArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hard_steel_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/medievalmodwork/recipes/hard_steel_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Phase 1/Steel Set"
+    },
+    {
+      "name": "HardSteelPickaxe",
+      "type": "tool",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hard_steel_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/medievalmodwork/models/item/hard_steel_pickaxe.json",
+          "src/main/java/net/mcreator/medievalmodwork/item/HardSteelPickaxeItem.java"
+        ]
+      },
+      "path": "~/Phase 1/Steel Set"
+    },
+    {
+      "name": "HardSteelAxe",
+      "type": "tool",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hard_steel_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/medievalmodwork/models/item/hard_steel_axe.json",
+          "src/main/java/net/mcreator/medievalmodwork/item/HardSteelAxeItem.java"
+        ]
+      },
+      "path": "~/Phase 1/Steel Set"
+    },
+    {
+      "name": "HardSteelSword",
+      "type": "tool",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hard_steel_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/medievalmodwork/item/HardSteelSwordItem.java",
+          "src/main/resources/assets/medievalmodwork/models/item/hard_steel_sword.json"
+        ]
+      },
+      "path": "~/Phase 1/Steel Set"
+    },
+    {
+      "name": "HardSteelShovel",
+      "type": "tool",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hard_steel_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/medievalmodwork/models/item/hard_steel_shovel.json",
+          "src/main/java/net/mcreator/medievalmodwork/item/HardSteelShovelItem.java"
+        ]
+      },
+      "path": "~/Phase 1/Steel Set"
+    },
+    {
+      "name": "HardSteelHoe",
+      "type": "tool",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hard_steel_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/medievalmodwork/models/item/hard_steel_hoe.json",
+          "src/main/java/net/mcreator/medievalmodwork/item/HardSteelHoeItem.java"
+        ]
+      },
+      "path": "~/Phase 1/Steel Set"
+    },
+    {
+      "name": "HardSteelPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hard_steel_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/medievalmodwork/recipes/hard_steel_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Phase 1/Steel Set"
+    },
+    {
+      "name": "HardSteelAxeRecipe",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hard_steel_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/medievalmodwork/recipes/hard_steel_axe_recipe.json"
+        ]
+      },
+      "path": "~/Phase 1/Steel Set"
+    },
+    {
+      "name": "HardSteelSwordRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hard_steel_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/medievalmodwork/recipes/hard_steel_sword_recipe.json"
+        ]
+      },
+      "path": "~/Phase 1/Steel Set"
+    },
+    {
+      "name": "HardSteelShovelRecipe",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hard_steel_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/medievalmodwork/recipes/hard_steel_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Phase 1/Steel Set"
+    },
+    {
+      "name": "HardSteelHoeRecipe",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hard_steel_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/medievalmodwork/recipes/hard_steel_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Phase 1/Steel Set"
+    },
+    {
+      "name": "StoneSpear",
+      "type": "item",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_spear",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/medievalmodwork/item/StoneSpearItem.java",
+          "src/main/resources/assets/medievalmodwork/models/item/stone_spear.json"
+        ]
+      },
+      "path": "~/Phase 1/Stone Set"
+    },
+    {
+      "name": "StoneSpearProjectile",
+      "type": "projectile",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_spear_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/medievalmodwork/entity/StoneSpearProjectileEntity.java"
+        ]
+      },
+      "path": "~/Phase 1/Stone Set"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.medievalmodwork.copper_hoe": "Copper Hoe",
+      "item.medievalmodwork.hard_steel_sword": "Hard Steel Sword",
+      "item.medievalmodwork.hard_steel_axe": "Hard Steel Axe",
+      "item.medievalmodwork.hard_steel_armor_boots": "Hard Steel Boots",
+      "block.medievalmodwork.steel_block": "Block of Steel",
+      "item.medievalmodwork.copper_axe": "Copper Axe",
+      "item.medievalmodwork.stone_spear": "Stone Spear",
+      "item.medievalmodwork.hard_steel_armor_leggings": "Hard Steel Leggings",
+      "item.medievalmodwork.hard_steel_hoe": "Hard Steel Hoe",
+      "item.medievalmodwork.bronze_armor_leggings": "Bronze Leggings",
+      "item_group.medievalmodwork.medieval_adds": "Medieval Adds",
+      "item.medievalmodwork.steel": "Steel",
+      "item.medievalmodwork.cooper_sword": "Copper Sword",
+      "item.medievalmodwork.bronze_ingot": "Bronze",
+      "item.medievalmodwork.bronze_armor_boots": "Bronze Boots",
+      "item.medievalmodwork.bronze_armor_chestplate": "Bronze Chestplate",
+      "block.medievalmodwork.steel_ore": "Steel Ore",
+      "item.medievalmodwork.bronze_armor_helmet": "Bronze Helmet",
+      "item.medievalmodwork.tin_ingot": "Tin",
+      "block.medievalmodwork.tin_ore": "Tin Ore",
+      "block.medievalmodwork.large_steel_block": "Hard Steel Block",
+      "item.medievalmodwork.hard_steel_armor_chestplate": "Hard Steel Chestplate",
+      "item.medievalmodwork.large_steel": "Hard Steel",
+      "item.medievalmodwork.hard_steel_pickaxe": "Hard Steel Pickaxe",
+      "item.medievalmodwork.copper_shovel": "Copper Shovel",
+      "item.medievalmodwork.hard_steel_armor_helmet": "Hard Steel Helmet",
+      "block.medievalmodwork.tin_block": "Block of Tin",
+      "item.medievalmodwork.copper_pickaxe": "Copper Pickaxe",
+      "block.medievalmodwork.bronze_block": "Block of Bronze",
+      "item.medievalmodwork.hard_steel_shovel": "Hard Steel Shovel"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Phase 1",
+        "children": [
+          {
+            "name": "General Utilities",
+            "children": []
+          },
+          {
+            "name": "Copper Set",
+            "children": []
+          },
+          {
+            "name": "Bronze Set",
+            "children": []
+          },
+          {
+            "name": "Tin Set",
+            "children": []
+          },
+          {
+            "name": "Steel Set",
+            "children": []
+          },
+          {
+            "name": "Stone Set",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "medievalmodwork",
+    "modName": "MedievalModWork",
+    "version": "1.0.0",
+    "author": "Ndu, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.medievalmodwork",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "medievalmodwork:tin_block"
+    }
+  ],
+  "result": {
+    "item": "medievalmodwork:tin_ingot",
+    "count": 9
+  }
+}

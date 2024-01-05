@@ -1,0 +1,62 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "size": 5,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "tag_match",
+          "tag": "stone_ore_replaceables"
+        },
+        "state": {
+          "Name": "medievalmodwork:steel_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:iron_ore"
+          }
+        },
+        "state": {
+          "Name": "medievalmodwork:steel_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:lapis_ore"
+          }
+        },
+        "state": {
+          "Name": "medievalmodwork:steel_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:deepslate_iron_ore"
+          }
+        },
+        "state": {
+          "Name": "medievalmodwork:steel_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:copper_ore"
+          }
+        },
+        "state": {
+          "Name": "medievalmodwork:steel_ore"
+        }
+      }
+    ]
+  }
+}

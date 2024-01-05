@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "medievalmodwork:block/tin_ore_block",
+    "particle": "medievalmodwork:block/tin_ore_block"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "medievalmodwork:bronze_block",
+    "medievalmodwork:tin_ore",
+    "medievalmodwork:tin_block",
+    "medievalmodwork:steel_ore",
+    "medievalmodwork:steel_block"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "medievalmodwork:item/hardsteel_sword"
+  }
+}
