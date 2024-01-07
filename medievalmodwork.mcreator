@@ -744,6 +744,130 @@
         ]
       },
       "path": "~/Phase 1/Stone Set"
+    },
+    {
+      "name": "StoneSpearRangedItemUsed",
+      "type": "procedure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_spear_ranged_item_used",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/medievalmodwork/procedures/StoneSpearRangedItemUsedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Phase 1/Stone Set"
+    },
+    {
+      "name": "StoneSpearProjectileProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_spear_projectile_projectile_hits_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/medievalmodwork/procedures/StoneSpearProjectileProjectileHitsBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Phase 1/Stone Set"
+    },
+    {
+      "name": "StoneSpearProjectileProjectileHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_spear_projectile_projectile_hits_living_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/medievalmodwork/procedures/StoneSpearProjectileProjectileHitsLivingEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Phase 1/Stone Set"
+    },
+    {
+      "name": "StoneSpearProjectileProjectileHitsPlayer",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_spear_projectile_projectile_hits_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/medievalmodwork/procedures/StoneSpearProjectileProjectileHitsPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Phase 1/Stone Set"
     }
   ],
   "variable_elements": [],

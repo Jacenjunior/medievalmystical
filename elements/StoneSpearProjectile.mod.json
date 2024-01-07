@@ -7,13 +7,22 @@
     },
     "showParticles": false,
     "actionSound": {
-      "value": "entity.arrow.shoot"
+      "value": "item.trident.hit"
     },
     "igniteFire": false,
     "power": 1.0,
-    "damage": 3.0,
-    "knockback": 2,
+    "damage": 5.0,
+    "knockback": 3,
     "entityModel": "Default",
-    "customModelTexture": ""
+    "customModelTexture": "",
+    "onHitsBlock": {
+      "name": "StoneSpearProjectileProjectileHitsBlock"
+    },
+    "onHitsPlayer": {
+      "name": "StoneSpearProjectileProjectileHitsPlayer"
+    },
+    "onHitsEntity": {
+      "name": "StoneSpearProjectileProjectileHitsLivingEntity"
+    }
   }
 }
